@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>urlap2</title>
+    <link rel="stylesheet" href="óra.css">
+</head>
+
+<body>
+    <h3>Szállítási cím módosítása</h3>
+    <form action="">
+        <fieldset>
+            <p>
+                <label for="Név">Név <span>*</span></label><br>
+                <input type="text" name="Név">
+            </p>
+            <p>
+                <label for="Telefonszam">Telefonszám <span>*</span></label><br>
+                <label>
+                    <select name="telefonszam">
+                        <option value=""></option>
+                        <option value="+36" selected>+36</option>
+                        <option value="06">06</option>
+                    </select>
+                </label>
+                <input type="tel" name="telefonszam" size="10">
+            </p>
+            <p>
+                <label for="iranyitoszam">Irányítószám <span>*</span></label><br>
+                <input type="text" name="iranyitoszam">
+            </p>
+            <p>
+                <label for="varos">Város <span>*</span></label><br>
+                <label>
+                    <select name="varos">
+                        <option value=""></option>
+                        <option value="Debrecen">Debrecen</option>
+                        <option value="Budapest">Budapest</option>
+                        <option value="Nyíregyháza">Nyíregyháza</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="orszag">Ország <span>*</span></label><br>
+                <label>
+                    <select name="orszag">
+                        <option value="Magyarország">Magyarország</option>
+                        <option value="Románia">Románia</option>
+                        <option value="Ausztria">Ausztria</option>
+                        <option value="Ukrajna">Ukrajna</option>
+                    </select>
+                </label>
+            </p>
+            <p>
+                <label for="cim">Cím <span>*</span></label><br>
+                <input type="text" name="cim">
+            </p>
+            <p>
+                <input type="submit" value="Mentés" id="gomb">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

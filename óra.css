@@ -1,0 +1,10 @@
+#gomb {
+    color: white;
+    background-color: greenyellow;
+}
+fieldset {
+    border-top: dotted;
+}
+span {
+    color: red;
+}
